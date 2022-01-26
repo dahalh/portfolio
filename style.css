@@ -1,0 +1,91 @@
+:root{
+    --primary:  #2081C3;
+    --secondary: #FF6B6B;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+/* hero section */
+.hero{
+    background: green url(./assets/bg.png) no-repeat center center;
+    background-size: cover;
+    min-height: 80vh;
+}
+a.nav-link{
+    color: red;
+    font-weight: bold;
+    font-size: 1.rem;
+}
+
+/* section */
+.section-title{
+    margin-top: 5rem;
+    font-size: 3rem;
+    border-bottom: 5px solid var(--secondary);
+    width: 200px;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.skill-list{
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 2rem;
+    text-align: center;
+    min-height: 40vh;
+}
+
+.skill-list i{
+    font-size: 6rem;
+    display: block;
+}
+
+/* project section */
+.project-section{
+    background: rgba(247, 91, 99, 0.315);
+}
+
+.about-me{
+    background: white;
+}
+
+/* contact section */
+.contact{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.contact i{
+    font-size: 3rem;
+}
+
+/* footer */
+
+.footer{
+    position: relative;
+}
+
+.up{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background: white;
+    color: var(--primary);
+    border-radius: 50%;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
