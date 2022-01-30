@@ -17,15 +17,20 @@ body {
     background-size: cover;
     min-height: 80vh;
 }
+
+.me{
+    width: 350px;
+    clip-path: circle();
+}
 a.nav-link{
-    color: red;
+    /* color: red; */
     font-weight: bold;
-    font-size: 1.rem;
+    font-size: 1.3rem;
 }
 
 /* section */
 .section-title{
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     font-size: 3rem;
     border-bottom: 5px solid var(--secondary);
     width: 200px;
